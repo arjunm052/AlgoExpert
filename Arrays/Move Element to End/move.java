@@ -23,7 +23,7 @@ public class move {
                 array.set(start,temp);
                 continue;
             }
-            //Else just moce on to the next element
+            //Else just move on to the next element
             i++;
         }
         //return the final result
