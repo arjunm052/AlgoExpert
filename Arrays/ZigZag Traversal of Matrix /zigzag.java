@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class spiral {
+public class zigzag {
     public static void main(String[] args) {
         
     }
