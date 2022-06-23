@@ -16,7 +16,7 @@ class Program {
             int size = array.size();
             // Traverse through all the internal nodes from left to right and call the
             // siftDown function on each node
-            for (int i = size - 2 / 2; i >= 0; i--) {
+            for (int i = (size - 2) / 2; i >= 0; i--) {
                 siftDown(i, size - 1, array);
             }
             // return the min heap generated
