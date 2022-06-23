@@ -1,7 +1,7 @@
 class Program {
     static class ContinuousMedianHandler {
 
-        // ******TC - O(NlogN) SC - O(1) *****
+        // ******TC - O(NlogN) SC - O(N) *****
 
         // median will hold the value of median at any given instant
         double median = 0;
