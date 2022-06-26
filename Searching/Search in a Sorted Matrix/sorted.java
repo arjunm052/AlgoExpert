@@ -3,6 +3,7 @@ public class sorted {
 
     }
 
+    // TC - O(N) SC - O(1)
     public static int[] searchInSortedMatrix(int[][] matrix, int target) {
         // We will start traversing the matrix from the top right corner
         // Initlize the i and j pointers to point at top right corner
